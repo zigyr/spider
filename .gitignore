@@ -7,6 +7,6 @@ __pycache__/
 .vscode/
 .idea/
 
-# Excluded projects (sensitive / not for distribution)
-04-projects/视频/cn.xgroovy.com/
-04-projects/图片/www.ibbs.pro/
+
+# Scraped outputs
+**/out
