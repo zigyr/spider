@@ -40,10 +40,9 @@ git show -p HEAD
 
 | 路径前缀 | 模块名 |
 |----------|--------|
-| `01-basics/` | `01-basics` |
-| `02-course/` | `02-course` |
-| `03-dll/` | `03-dll` |
-| `04-projects/` | `04-projects` |
+| `-course/` | `-course` |
+| `-projects/` | `-projects` |
+| `_recipes/` | `经验片段` |
 | `_notes/` | `笔记` |
 | 根目录或无法归类 | `其他` |
 
@@ -116,13 +115,13 @@ journal/YYYY-MM-DD.md
 ```markdown
 # 2026-07-17
 
-## 01-basics | 文件路径处理
-- **文件**: `01-basics/文件与目录/输出放在脚本同级目录的文件夹下.py`（新增）
+## 经验片段 | 文件路径处理
+- **文件**: `_recipes/文件与目录/输出放在脚本同级目录的文件夹下.py`（新增）
 - **内容**: 练习将下载输出放到脚本同级目录，使用 os.path 动态获取脚本所在路径
 - **技术点**: `os.path.dirname`, `os.path.join`, `os.makedirs`
 
-## 04-projects | AGE动漫 AES-128 解密修复
-- **文件**: `04-projects/age-anime-v1/decrypt.py`（修改）
+## -projects | AGE动漫 AES-128 解密修复
+- **文件**: `-projects/视频/age-v1-project-of-video/decrypt.py`（修改）
 - **内容**: 修复 AES-CBC 解密 key 提取逻辑，适配目标网站 DOM 结构调整
 - **技术点**: `Crypto.Cipher.AES`, `re.compile`, M3U8 流解析
 ```

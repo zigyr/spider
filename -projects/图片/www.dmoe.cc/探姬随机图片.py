@@ -8,7 +8,7 @@ from pathlib import Path
 
 # 配置项
 URL = "http://www.dmoe.cc/random.php"
-IMG_DIR = "./04-projects/www.dmoe.cc/images"
+IMG_DIR = "./-projects/图片/www.dmoe.cc/images"
 TIMEOUT = 10  # 请求超时时间（秒）
 RETRY_TIMES = 3  # 请求失败重试次数
 

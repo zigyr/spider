@@ -11,7 +11,7 @@ from concurrent.futures import as_completed
 
 BASE_URL = "https://www.ibbs.pro"
 
-SAVE_ROOT = Path("04-projects/www.ibbs.pro/images")
+SAVE_ROOT = Path("-projects/图片/www.ibbs.pro/images")
 
 headers = {
     "user-agent":

@@ -1,3 +1,7 @@
+"""
+原项目 -projects/视频/cn.xgroovy.com/
+功能   检测服务器是否支持 HTTP Range 请求
+"""
 
 from lxml import etree
 import time
