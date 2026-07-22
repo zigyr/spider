@@ -4,9 +4,12 @@
 """
 
 import json
+import os
 
+root_dir = os.path.dirname(os.path.abspath(__file__))
+json_path = os.path.join(root_dir, "1.json")
 
-with open("2.json", "r", encoding="utf-8") as f:
+with open(json_path, "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # for i in range(4, 20):
