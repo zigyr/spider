@@ -10,10 +10,12 @@ cookies = {
     'ttwid': '1%7C8kecg4UAA3FMw_hlCgjMDKEGKgrjopaSW-xam89EiT8%7C1784355005%7C0205c28397847f5c9df09442a93deeb5e37665a323dc3a20a90f7c641ba1955f',
 }
 
+# 固定值
 headers = {
     'referer': 'https://www.douyin.com/',
 }
 
+# 固定值
 params = {
     'aid': '6383',
 }
