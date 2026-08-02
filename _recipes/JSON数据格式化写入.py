@@ -28,4 +28,9 @@ data = json.loads(re.search(
 
 
 with open("1.json", "w") as f:
-    json.dump(data, f, ensure_ascii=False, indent=4)
+    json.dump(
+        data, 
+        f, 
+        ensure_ascii=False, # 用来控制中文是否转义
+        indent=4
+    )
