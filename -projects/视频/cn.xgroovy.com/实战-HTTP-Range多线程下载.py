@@ -203,16 +203,11 @@ def batch_download(page_urls):
 def main():
     start = time.time()
 
-    modle = int(input("请选择网页输入方式(1.手动, 2或其他.正则匹配):"))
+    modle = int(input("请选择网页输入方式(1.手动, 2.剪切板复制):"))
 
     if modle == 1:
         page_urls = [
-            "https://cn.xgroovy.com/videos/410735/18-yo-busty-schoolgirl-takes-cumshots-on-big-ass-from-her-stepbrother/",
-            "https://cn.xgroovy.com/videos/474082/chinese-babe-has-only-came-from-school-and-already-fucked-badly/",
-            "https://cn.xgroovy.com/videos/380682/skinny-russian-girl-is-humping-table-and-fingerfucking-juicy-pussy/",
-            "https://cn.xgroovy.com/videos/745040/pale-chick-poses-for-a-camera-with-her-round-ass-and-a-cameltoe-pussy/",
-            "https://cn.xgroovy.com/videos/732142/slim-petite-teen-fingers-her-tiny-bald-pussy-gets-creamy-orgasm-in-hot-female-pov/",
-            "https://cn.xgroovy.com/videos/731745/hot-close-up-panties-through-fuck-compilation-with-18yo-petite-girl/"
+            "https://cn.xgroovy.com/videos/410735/18-yo-busty-schoolgirl-takes-cumshots-on-big-ass-from-her-stepbrother/"
         ]
     else:
         """
